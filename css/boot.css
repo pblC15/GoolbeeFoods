@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Josefin';
+}
+
+@font-face {
+    font-family: 'Berkshire-Regular';
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+}
+
+body {
+    line-height: 1 !important;
+}
+
+h1 {
+    font-family: 'Berkshire-Regular';
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p {
+    font-family: 'Josefin';
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul {
+    margin-bottom: 0em !important;
+}
+
+[class^="icon-"]:before {
+    margin-right: 0px !important;
+}
+
+.ds_none {
+    display: none;
+}
