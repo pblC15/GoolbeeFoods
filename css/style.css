@@ -39,6 +39,10 @@
     text-decoration: none;
 }
 
+.main_header_social span {
+    margin-right: 10px;
+}
+
 
 /*SEGUNDO HEADER*/
 
@@ -178,24 +182,6 @@
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     cursor: pointer;
-}
-
-.btn2 {
-    background-color: #FFF;
-    color: rgb(239, 70, 51);
-    font-weight: 900;
-    font-size: 1.3em;
-    padding: 15px 20px;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    cursor: pointer;
-}
-
-.btn2:hover {
-    background-color: rgb(23, 31, 33);
-    color: #FFF;
-    font-weight: 300;
 }
 
 .btn1:hover {
