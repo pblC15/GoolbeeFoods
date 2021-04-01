@@ -645,7 +645,7 @@ footer {
         margin-top: 30px !important;
     }
     .main_content_contact p {
-        font-size: 1.3em;
+        font-size: 1em;
     }
     .article-network-social>div {
         width: 100px;
@@ -675,5 +675,8 @@ footer {
     }
     .main_header_social {
         margin-bottom: 0px !important;
+    }
+    .main_footer .main_content_footer{
+        padding: 20px 4%;
     }
 }
