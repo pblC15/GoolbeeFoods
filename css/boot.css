@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Berkshire-Regular';
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/static/JosefinSans-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/static/JosefinSans-Medium.ttf');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/static/JosefinSans-SemiBold.ttf');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/static/JosefinSans-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Josefin', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.ds_none {
+    display: none;
+}
