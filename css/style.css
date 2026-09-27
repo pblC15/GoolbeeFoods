@@ -156,6 +156,23 @@ p {
     background-color: rgba(255,255,255,.5);
 }
 
+.header-whats-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    font-size: .82em;
+    font-weight: 700;
+}
+
+.header-whats-btn:hover {
+    color: var(--laranja);
+}
+
+.header-whats-btn .icon-whatsapp:before {
+    margin-right: 0;
+}
+
 .main_header_social {
     display: flex;
     gap: 14px;
@@ -677,6 +694,19 @@ p {
     margin-bottom: 20px;
 }
 
+.main_content_contact .telphone:before {
+    margin-right: 0;
+}
+
+.btn-whatsapp {
+    gap: 10px;
+}
+
+.btn-whatsapp .icon-whatsapp:before {
+    margin-right: 0;
+    font-size: 1.15em;
+}
+
 .main_content_contact p {
     font-size: 1.6em;
     color: #fff;
@@ -759,6 +789,14 @@ p {
     font-size: 1.3em;
 }
 
+.article-network-social > .social-icons > a [class^="icon-"]:before {
+    margin-right: 0;
+}
+
+.footer-content p a:hover {
+    text-decoration: underline;
+}
+
 .article-network-social > .social-icons > a:hover {
     background: #fff;
     color: var(--verde);
@@ -799,6 +837,10 @@ footer {
     box-shadow: 0 10px 30px rgba(0,0,0,.3);
     z-index: 900;
     animation: pulse 2.4s infinite;
+}
+
+.whats-float .icon-whatsapp:before {
+    margin-right: 0;
 }
 
 @keyframes pulse {
