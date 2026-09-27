@@ -718,8 +718,8 @@ p {
     margin-bottom: 14px !important;
 }
 
-.main_content_contact p:nth-of-type(2) a {
-    color: #fff;
+.btn-whatsapp:hover {
+    color: var(--laranja);
 }
 
 /* =========== FOOTER PRINCIPAL =========== */
