@@ -1,3 +1,4 @@
+
 /* =====================================================
    RESTAURANTE PANELA CHEIA
    Redesign mobile-first mantendo a paleta original
@@ -123,6 +124,7 @@ p {
 
 .main_content_header_1 {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -148,6 +150,7 @@ p {
 
 .splitter {
     width: 2px;
+
     height: 16px;
     margin: 0 10px;
     background-color: rgba(255,255,255,.5);
@@ -179,6 +182,7 @@ p {
 
 .second_header_content {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     max-width: 1300px;
@@ -319,6 +323,7 @@ p {
 }
 
 .main_content_banner_size {
+
     max-width: 800px;
     margin: 0 auto;
     color: #fff;
@@ -355,6 +360,7 @@ p {
 .main_desc_place_content {
     display: flex;
     flex-wrap: wrap;
+
     align-items: center;
     gap: 50px;
 }
@@ -365,6 +371,7 @@ p {
 
 .main_desc_content_place_img img {
     width: 100%;
+
     border-radius: var(--radius);
     box-shadow: var(--sombra);
     aspect-ratio: 4 / 3;
@@ -388,6 +395,7 @@ p {
 
 .div_underline,
 .div_underline2,
+
 .div_underline3,
 .div_underline4 {
     height: 3px;
@@ -423,6 +431,7 @@ p {
 .link_text a:hover {
     text-decoration: underline;
 }
+
 
 /* =========== CARROSSEL "ESPECIAL DO DIA" =========== */
 
@@ -471,6 +480,7 @@ p {
 
 .price-difine {
     text-align: center;
+
     position: relative;
 }
 
@@ -561,6 +571,7 @@ p {
 
 .botao2 {
     text-align: center;
+
     margin-top: 40px;
 }
 
@@ -659,6 +670,7 @@ p {
 }
 
 .main_content_contact .telphone {
+
     font-size: 4.5em;
     color: #fff;
     display: inline-block;
@@ -672,6 +684,7 @@ p {
 
 .main_content_contact p:nth-of-type(1) {
     font-family: 'Berkshire-Regular';
+
     margin-bottom: 14px !important;
 }
 
@@ -725,6 +738,7 @@ p {
 
 .article-network-social {
     display: flex;
+
     flex-direction: column;
 }
 
@@ -756,6 +770,7 @@ footer {
 }
 
 .footer-content {
+
     padding: 16px 20px;
     color: #fff;
     text-align: center;
